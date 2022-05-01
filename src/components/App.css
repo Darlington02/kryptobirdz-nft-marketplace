@@ -1,0 +1,62 @@
+body {
+    height:100vh;
+    width:100%;
+    margin:0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradientBG 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    1000% {
+        background-position: 0% 50%;
+    }
+
+}
+
+.token {
+    width: 300px;
+    box-shadow: 0 8px 16px rgba(5, 5, 5, 0.3);
+    padding: 2px 16px;
+    margin: 16px;
+    border-radius: 8px;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAG0lEQVQYV2P8//+/FCMj4zMGJMCIzIGxKRQEAJgPBAbJqUVTAAAAAElFTkSuQmCC) repeat;
+}
+
+img { 
+
+    border: .3px rgba(#e0e0e0);
+    box-shadow: 10px 10px 8px rgba(#111111);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-top:10px;
+}
+
+.container-filled {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    top:15%;
+}
+
+
+/* k1: https://i.ibb.co/z5wvwmd/k1.png
+k2: https://i.ibb.co/ZRsRJY2/k2.png
+k3: https://i.ibb.co/0JWYnKS/k3.png
+k4: https://i.ibb.co/v1X1Xd4/k4.png
+k5: https://i.ibb.co/QmHXy8B/k5.png
+k6: https://i.ibb.co/j4jCqC8/k6.png
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/6RcTg2R/k7.png" alt="k7" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/QJfq7Fn/k8.png" alt="k8" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/0qKj540/k9.png" alt="k9" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/r50wRRY/k10.png" alt="k10" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ydv6fVg/k11.png" alt="k11" border="0"></a> */
